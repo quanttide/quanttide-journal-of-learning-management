@@ -4,12 +4,15 @@
 
 ## 结构
 
-一个学员/教学对象一个文件夹，按日期记日志：
+一个学习者一个文件夹，按日期记日志（学员按教学组织分组，如 qtclass/Jerry；自助学习者按主体分组，如 qttech/iGuo）：
 
 ```
 journal/
-└── qtclass/
-    └── Jerry/           # Jerry（Jerry）
+├── qtclass/
+│   └── Jerry/           # 学员（Jerry）
+│       └── 2026-08-30.md
+└── qttech/
+    └── iGuo/            # 自助学习者（iGuo）
         └── 2026-08-30.md
 ```
 
